@@ -14,10 +14,10 @@ export const Skills = () => {
           <Col md={4}>
             <h4>Product</h4>
             <ul className="skills-list">
-              <li>Product Strategy</li>
-              <li>Roadmapping</li>
-              <li>User Research</li>
               <li>Requirements Gathering</li>
+              <li>Market Research</li>
+              <li>Figma</li>
+              <li>Prototyping</li>
             </ul>
           </Col>
 
@@ -36,8 +36,8 @@ export const Skills = () => {
             <ul className="skills-list">
               <li>Jira</li>
               <li>Confluence</li>
-              <li>Notion</li>
-              <li>Figma</li>
+              <li>Tableau</li>
+              <li>Website Development</li>
             </ul>
           </Col>
         </Row>
