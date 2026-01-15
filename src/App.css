@@ -1,19 +1,4 @@
-/************ Custom Font ************/
-@font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
-	font-weight: 700;
-}
-@font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
-	font-weight: 500;
-}
-@font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
-	font-weight: 400;
-}
+
 
 /************ Default Css ************/
 * {
@@ -33,7 +18,9 @@ body {
   position: relative;
   background: #0b0f19 !important; /* deep slate, not black */
   color: #e5e7eb !important; /* soft white */
-  font-family: 'Centra', sans-serif !important;
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+ 
 }
 
 
