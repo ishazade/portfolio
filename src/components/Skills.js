@@ -37,7 +37,7 @@ export const Skills = () => {
               <li>Jira</li>
               <li>Confluence</li>
               <li>Tableau</li>
-              <li>Website Development</li>
+              <li>VSCode</li>
             </ul>
           </Col>
         </Row>
