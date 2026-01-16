@@ -16,14 +16,17 @@ export const Experience = () => {
             {/* Experience 1 */}
             <div className="experience-item">
               <div className="experience-meta">
-                <span className="company">Students Landing</span>
-                <span className="date">Aug 2025 – Present</span>
+                <span className="company">Caliber Digital</span>
+                <span className="date">Dec 2025 – Present</span>
               </div>
               <h3>Associate Technical Project Manager</h3>
               <ul>
-                <li>Led the end-to-end development and launch of the Students Landing website, coordinating cross-functional teams across design, development, and content to deliver a student-focused platform.</li>
-                <li>Partnered with UX designers and developers to translate business requirements into functional website features, improving usability and clarity for prospective students.</li>
-                <li>Raised and tracked tasks and issues using Teamwork.com, and facilitated daily stand-ups to improve requirement clarity and reduce rework by 5%.</li>
+                <li>Owned end-to-end coordination of 5+ client website deliveries, partnering with design, development, and marketing
+teams to meet scope, timelines, and client expectations.</li>
+                <li>Streamlined project tracking and reporting processes, improving visibility into risks and dependencies and reducing
+delivery escalations by 10%.</li>
+                <li>Raised tickets on Teamwork.com and facilitated daily stand-up calls, improving requirement clarity and reduced
+rework by 5%.</li>
          
               </ul>
             </div>

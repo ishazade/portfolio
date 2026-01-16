@@ -210,7 +210,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 60px 0 100px 0;
+  padding: 20px 0 50px 0;
   background: radial-gradient(
     1200px circle at 20% 10%,
     rgba(99, 102, 241, 0.12),
@@ -222,7 +222,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .tagline {
   font-weight: 600;
   letter-spacing: 0.5px;
-  padding: 8px 14px;
+  padding: 10px 14px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15);
   font-size: 14px;
@@ -719,3 +719,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px; /* adjust between -30px and -80px */
 }
 
+.hero1 {
+  width: 390px;        /* controls visible size */
+  max-width: 100%;
+  height: auto;
+  border-radius: 24px; /* optional, looks nice */
+}
+
+.hero2{
+  width: 390px;        /* controls visible size */
+  max-width: 100%;
+  height: auto;
+  border-radius: 24px; /* optional, looks nice */
+}
+
+/* Make carousel arrows subtle */
+.hero-carousel .carousel-control-prev,
+.hero-carousel .carousel-control-next {
+  width: 10%;
+  opacity: 0.6;
+}
+
+.hero-carousel .carousel-control-prev:hover,
+.hero-carousel .carousel-control-next:hover {
+  opacity: 1;
+}

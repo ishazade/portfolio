@@ -38,7 +38,7 @@ export const Projects = () => {
   <div className="project-links">
   <a
   className="btn btn-outline-light"
-  href="https://docs.google.com/presentation/d/1AET12UVPFpzlr8LhGy5avySTVByBPEuKZSWgdJU1D_4/edit?slide=id.p1#slide=id.p1"
+  href="https://docs.google.com/presentation/d/1n7j2NFlyDSx4_P44x0SnHQ5MP1ecxLkJvlsa3kiyikM/edit?slide=id.p1#slide=id.p1"
   target="_blank"
   rel="noreferrer"
 >

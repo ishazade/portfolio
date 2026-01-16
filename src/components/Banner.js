@@ -1,5 +1,6 @@
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 
+
 // Put your photos in src/assets/img/
 import me1 from "../assets/img/Image (2).jpeg";
 import me2 from "../assets/img/Image (3).jpeg";
@@ -33,10 +34,10 @@ export const Banner = () => {
             <div className="hero-carousel">
               <Carousel fade interval={2500} controls={false} indicators={true} pause={false}>
                 <Carousel.Item>
-                  <img className="d-block w-100 hero-photo" src={me1} alt="Isha Zade portrait 1" />
+                  <img className="hero1" src={me1} alt="Isha Zade portrait 1" />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img className="d-block w-100 hero-photo" src={me2} alt="Isha Zade portrait 2" />
+                  <img className="hero2" src={me2} alt="Isha Zade portrait 2" />
                 </Carousel.Item>
                
               </Carousel>
