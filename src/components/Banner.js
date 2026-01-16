@@ -32,7 +32,7 @@ export const Banner = () => {
 
           <Col xs={12} md={6} xl={5}>
             <div className="hero-carousel">
-              <Carousel fade interval={2500} controls={false} indicators={true} pause={false}>
+              <Carousel fade interval={2500} controls={false} indicators={false} pause={false}>
                 <Carousel.Item>
                   <img className="hero1" src={me1} alt="Isha Zade portrait 1" />
                 </Carousel.Item>
