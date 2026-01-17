@@ -744,3 +744,48 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .hero-carousel .carousel-control-next:hover {
   opacity: 1;
 }
+
+/* ===== Mobile responsiveness ===== */
+@media (max-width: 768px) {
+  .banner {
+    padding: 140px 0 70px 0; /* less top padding */
+    text-align: left;
+  }
+
+  .banner h1 {
+    font-size: 38px;   /* down from 65 */
+    line-height: 1.15;
+  }
+
+  .banner .tagline {
+    font-size: 16px;
+  }
+
+  .banner p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .project p,
+  .skill p {
+    width: 100%;
+  }
+
+  /* Buttons wrap nicely */
+  .banner .btn,
+  .project-links .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-photo {
+    height: 280px;     /* smaller on mobile */
+    object-fit: cover; /* keeps it neat */
+  }
+
+  .hero-carousel {
+    margin-top: 24px;  /* space between text and image */
+  }
+}
